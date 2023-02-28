@@ -9,22 +9,21 @@
     margin-top: 50px !important;
 }
 
-.masthead {
-
-    background: linear-gradient(90deg, rgba(150, 88, 160, 1) 0, rgba(219, 153, 123, 1) 100%) url(/bg.jpg) !important;
-
-}
+/* .masthead {
+    background-image: url("assets/box.png");
+    background-color: rgba(27, 28, 30, .9);
+} */
 
 .tab a {
-    background-color: white;
+    background-color: #e6e6e6;
 }
 
 .tab a:hover {
-    background-color: #ddd;
+    background-color: #ccb800;
 }
 
 .tab a.active {
-    background-color: #ccc;
+    background-color: #ffe500;
 }
 
 .tabcontent {
@@ -37,8 +36,6 @@
     width: 75%;
 
 }
-
-
 
 
 

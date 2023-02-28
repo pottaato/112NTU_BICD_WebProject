@@ -7,54 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bicd-home.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/bootstrap_styles.css" rel="stylesheet">
 
     <title>臺大生傳畢業製作|日常，不日常</title>
 </head>
 
-<body>
+<body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="javascript:void(0)">日常，不日常</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
-                <ul class="navbar-nav me-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav" style="width: 100%;">
+        <div class="container ">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">日常不日常</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon dark"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: right;">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0" style="text-shadow: 0px 0px 3px rgba(40, 40, 40, 0.5)">
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">專案一覽</a>
+                        <a class="nav-link js-scroll-trigger " href="#page-top">回首頁</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donate.html">商品選購</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="activity_information.html">活動資訊</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="About_us.html">關於我們</a>
-                    </li>
+
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="donate.html">募資平台</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="activity_information.html">活動資訊</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="About_us.html">關於我們</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="support.html">贊助廠商</a></li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Header -->
-    <header>
+
+    <div class="banner" style="background-color: rgba(128, 128, 128, 0.196);">
+        <img src="assets/banner.jpeg">
+    </div>
+
+
+    <!-- <header>
         <div class="container-fluid hero-image" style="margin-top:70px">
             <img src="assets/banner.jpg" class="img-thumbnail">
         </div>
-    </header>
+    </header> -->
 
     <!-- 活動簡介 -->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section" id="about">
         <div class="container">
             <div class="row" style="height: 100%">
                 <div class="col-lg-10 mx-auto content-section-heading">
                     <h3 class="text-secondary mb-0 tittle slidein">The origin of curation</h3>
                     <h1 class="tittle slidein">策展緣起</h1>
-                    <h3 style="color: #462857;font-size: 18pt">
+                    <h3 style="color: #ccb800; font-size: 18pt">
                         「日常不日常—邊界的脫落與再建構」
                     </h3>
                     <p class="lead mb-5 sm-font" style="font-size: 12pt">
@@ -84,7 +92,8 @@
                         終將明白邊界不只是邊界，<br>
                         <br>
                         那充滿日常與不日常的世界，<br>
-                        終將回歸內心，由自己測繪。                    </p>
+                        終將回歸內心，由自己測繪。                    
+                    </p>
                 </div>
             </div>
         </div>
@@ -107,9 +116,110 @@
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0 tittle slidein">All Projects</h3>
                 <h2 class="mb-5 tittle slidein">專案一覽</h2>
-                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            </div>
+            <div class="row no-gutters">
 
-                    <!-- Indicators/dots -->
+                <!--sleep-->
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="1_sleep.html">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">睡覺</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/1_red_sleep.png" alt="新市力">
+                    </a>
+                </div>
+
+                <!--airport-->
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="2_airport.html">
+                        <div class="caption">
+                            <div class="caption-content text-right">
+                                <div class="h2">南機場</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/2_orange_airport.png" alt="品味調香室">
+                    </a>
+                </div>
+
+                <!--up-->
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="3_up.html">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">UP</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/3_blue_up.png" alt="XYZ">
+                    </a>
+                </div>
+
+                <!---->
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="4_tea.html">
+                        <div class="caption text-right">
+                            <div class="caption-content text-right">
+                                <div class="h2">茶葉</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/4_green_tea.png" alt="112星球">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="5_inception.html">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">二二俱樂部</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/5_purple_inception.png" alt="二二俱樂部">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="6_maze.html">
+                        <div class="caption">
+                            <div class="caption-content text-right">
+                                <div class="h2">One-Shot劇組</div>
+                                <h4 class="mb-1">「Lorem ipsum」</h4>
+                                <p class="hashtag">
+                                    #lorem #ipsum #dolor #sit <br>
+                                    #amet
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="assets/6_yellow_maze.png" alt="One-Shot劇組">
+                    </a>
+                </div>
+            </div>
+
+                <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -117,7 +227,6 @@
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
                     </div>
 
-                    <!-- The slideshow/carousel -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/pic5.jpeg" alt="Los Angeles" class="d-block" style="width:100%">
@@ -148,8 +257,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Left and right controls/icons -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
@@ -157,7 +264,7 @@
                         <span class="carousel-control-next-icon"></span>
                     </button>
                 </div>
-            </div>
+            </div> -->
     </section>
 
     <!-- Call to Action/展覽資訊 -->
@@ -192,7 +299,7 @@
         </small>
     </div> -->
     <!-- 贊助單位 -->
-    <section class="content-section bg-light " id="sugardaddy" style="padding-top: 40px;padding-bottom: 40px">
+    <section class="content-section " id="sugardaddy" style="padding-top: 40px;padding-bottom: 40px">
         <div class="container text-center" style="padding: 0;">
             <div class="container" style="min-height: 25vh">
                 <h2>贊助單位</h2>
@@ -229,33 +336,29 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="footer text-center" style="height: 222px;">
+    <footer class="footer text-center" style="height: 220px; background-color: #1b1c1e;">
         <div class="container">
             <ul class="list-inline mb-4">
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3 socialbtm"
-                        href="https://www.facebook.com/NTUBICD.GPExpo" target="_blank">
-                        <i class="icon-social-facebook"></i>
-                        <h6 class="footercap">粉絲專頁</h6>
+                    <a class="social-link rounded-circle text-white mr-3 socialbtm" href="https://www.facebook.com/NTUBICD.GPExpo" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <div class="footercap">粉絲專頁</div>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3 socialbtm"
-                        href="https://www.flyingv.cc/projects/28325" target="_blank">
-                        <i class="fas fa-donate"></i>
-                        <h6 class="footercap">募資平台</h6>
+                    <a class="social-link rounded-circle text-white mr-3 socialbtm" href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <div class="footercap">回到首頁</div>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white socialbtm" href="http://www.bicd.ntu.edu.tw/"
-                        target="_blank">
-                        <i class="fas fa-seedling"></i>
-                        <h6 class="footercap">生傳官網</h6>
+                    <a class="social-link rounded-circle text-white socialbtm" href="https://www.flyingv.cc/projects/28325" target="_blank">
+                        <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                        <div class="footercap">募資平台</div>
                     </a>
                 </li>
             </ul>
-            <p class="text-muted small mb-0">Copyright © NTU BICD 2021</p>
-
+            <p class="text-muted small mb-0">Copyright &copy; NTU BICD 2023</p>
         </div>
     </footer>
 
@@ -265,6 +368,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/stylish-portfolio.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+
+<script>
+    $(function() {
+        $(window).scroll(function() {
+            var winh = $(window).height();
+            var scrolled = $(window).scrollTop();
+            $("#mainNav").each(function() {
+                var objpos = $(this).offset().top;
+                if (scrolled > winh * 0.3) {
+                    $(this).addClass("navbar-scrolled");
+                    $(this).addClass("navbar-light");
+                    $(this).removeClass("navbar-dark");
+                } else {
+                    $(this).removeClass("navbar-scrolled");
+                    $(this).addClass("navbar-dark");
+                    $(this).removeClass("navbar-light");
+                }
+
+            });
+        });
+    });
+</script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
